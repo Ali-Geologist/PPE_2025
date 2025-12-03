@@ -1,10 +1,9 @@
-# Object Detection Course
- 
+streamlit==1.37.0
+numpy>=1.18.5  # MOVED TO LINE 3 - Must be before lap dependencies
 cvzone==1.5.6
 ultralytics==8.3.214
 hydra-core>=1.2.0
 matplotlib>=3.2.2
-numpy>=1.18.5
 opencv-python==4.9.0.80
 Pillow>=7.1.2
 PyYAML>=5.3.1
@@ -15,6 +14,3 @@ torchvision>=0.8.1
 tqdm>=4.64.0
 filterpy==1.4.5
 scikit-image==0.19.3
-lap==0.4.0
-streamlit==1.37.0
-
